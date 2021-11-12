@@ -1,33 +1,42 @@
+h1{
+    margin: 20px 160px;
+}
 h4{
-    font-size: 6px;
+    font-size: .7rem;
     font-weight: bold;
     display: flex;
     align-items: center;
+}
+img{
+    width: 100%;
+    height: 300px;
 }
 .card {
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.42);
     border-radius: 5px;
     margin: 50px 20px;
+    width:300px;
     /*padding-bottom: 20px;*/
 }
-.photo {
-    width: 100%;
-    /*border-top-left-radius: 5px;*/
-    /*border-top-right-radius: 5px;*/
+.searchBox {
+    width: 100vw;
+    height: 70px;
+    padding: 10px 4vw;
+    background-color: rgba(0 , 0 ,0 , 0.8);
 }
 
 #input {
-    width: 500px;
+    width:92vw;
     height:50px;
-    border: 1px solid blue;
+    border: 1px solid ;
     border-radius: 5px;
-    margin-left: 30%;
-    margin-top: 50px;
+    /*margin-left: 30%;*/
+    /*margin-top: 50px;*/
 }
 .title {
     /*margin-left: 30px;*/
     font-weight: 570;
-    font-size:12px;
+    font-size:1.2rem;
     /*color: cadetblu e;*/
 }
 /*.dec {*/
@@ -39,7 +48,6 @@ h4{
     margin-left: 30%;
     margin-top: 10px;
 }
-
 .card_content{
     /*margin : 20px 20px 0 20px;*/
     display: flex;
