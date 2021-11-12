@@ -1,8 +1,14 @@
+h4{
+    font-size: 6px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
 .card {
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.42);
     border-radius: 5px;
     margin: 50px 20px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 .photo {
     width: 100%;
@@ -20,25 +26,31 @@
 }
 .title {
     /*margin-left: 30px;*/
-    font-weight: bold;
-    font-size: 30px;
-    /*color: cadetblue;*/
+    font-weight: 570;
+    font-size:12px;
+    /*color: cadetblu e;*/
 }
-.dec {
-    margin-left: 30px;
-    font-size: 20px;
-    color: darkslateblue;
-}
+/*.dec {*/
+/*    !*margin-left: 30px;*!*/
+/*    !*font-size: 20px;*!*/
+/*    color: darkslateblue;*/
+/*}*/
 .btn {
     margin-left: 30%;
     margin-top: 10px;
 }
 
 .card_content{
-    margin : 20px 20px 0 20px;
+    /*margin : 20px 20px 0 20px;*/
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
-.gray {}
+.contentHolder {
+    padding: 10px;
+}
+.row {
+    padding: 0;
+}
+
